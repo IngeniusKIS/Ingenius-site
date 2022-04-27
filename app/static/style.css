@@ -1,4 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
 *{
 	box-sizing: border-box;
+	font-family: 'Dosis';
 
+}
+
+.nav-links ul{
+	margin: 0;
+	padding: 1rem 0;
+	border-radius: 7px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.nav-item{
+	list-style: none;
+	margin-right: 2rem;
+}
+
+.nav-item:first-child{
+	margin-right: auto;
+	margin-left: 2rem;
+}
+
+.nav-item a{
+	text-decoration: none;
+	transition: all 0.3s ease 0s;
+	color: black;
+
+}
+
+.landing{
+	text-align: center;
+	margin: 12.5rem;
+	font-size: xx-large;
+
+}
+
+.about{
+	width: 50%;
+	margin: auto;
+	margin-bottom: 12.5rem;
+	
+}
+
+.about h1{
+	text-align: center;
+	font-size: 40px;
+}
+
+.events h1{
+	text-align: center;
+	font-size: 40px;
 }
