@@ -2,6 +2,7 @@
 
 html{
 	scroll-behavior: smooth;
+	background-color: #F5F2E7;
 }
 
 *{
@@ -12,6 +13,14 @@ html{
 
 
 /* page-header styling */
+
+.header{
+	background-color:#2C3333;
+}
+
+.nav-links{
+	width: 100%;
+}
 
 .nav-links ul{
 	margin: 0;
@@ -35,17 +44,27 @@ html{
 .nav-item a{
 	text-decoration: none;
 	transition: all 0.3s ease 0s;
-	color: black;
+	color: #f5fff9;
+
 
 }
+
+.nav-item button{
+	border: 0px;
+	border-radius: 3px;
+	background-color: #2666CF;
+	padding: 8px;
+
+}
+
 
 .landing{
 	text-align: center;
 	margin: auto;
 	padding: 10rem;
 	font-size: xx-large;
-	background-color: black;
-	color: white;
+	
+	color: black;
 	width: 100%
 }
 
@@ -55,6 +74,9 @@ html{
 	width: 50%;
 	margin: auto;
 	margin-bottom: 12.5rem;
+	
+
+
 	
 }
 
@@ -67,7 +89,7 @@ html{
 /* events div styling */
 
 .events{
-	background-color: white;
+	background-color:#395B64;
 	color: black;
 	padding: 0.5rem;
 }
@@ -75,6 +97,7 @@ html{
 .events h1{
 	text-align: center;
 	font-size: 40px;
+	color: white;
 
 }
 
@@ -85,15 +108,20 @@ html{
 
 .events ul li{
 
-	border: 1px solid black;
+	
+	border-radius: 3px;
 	padding: 0.5rem;
 	margin-bottom: 1rem;
+
+	background-color: #2C3333;
+	color:#f4f6fc;
 
 	text-align: center;
 	transition: all 2s , ease 1s;
 }
 
 .events ul li:hover{
-	background-color: #4f34eb;
+	background-color: #2666CF;
+	color:black;
 
 }
