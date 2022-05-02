@@ -67,8 +67,8 @@ html{
 /* events div styling */
 
 .events{
-	background-color: black;
-	color: white;
+	background-color: white;
+	color: black;
 	padding: 0.5rem;
 }
 
@@ -84,8 +84,16 @@ html{
 }
 
 .events ul li{
-	border: 1px solid white;
+
+	border: 1px solid black;
 	padding: 0.5rem;
-	margin-bottom: 1.5rem;
+	margin-bottom: 1rem;
+
 	text-align: center;
+	transition: all 2s , ease 1s;
+}
+
+.events ul li:hover{
+	background-color: #4f34eb;
+
 }
