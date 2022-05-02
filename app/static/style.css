@@ -10,6 +10,9 @@ html{
 
 }
 
+
+/* page-header styling */
+
 .nav-links ul{
 	margin: 0;
 	padding: 1rem 0;
@@ -46,6 +49,8 @@ html{
 	width: 100%
 }
 
+/**about-div styling**/
+
 .about{
 	width: 50%;
 	margin: auto;
@@ -58,9 +63,12 @@ html{
 	font-size: 40px;
 }
 
+
+/* events div styling */
+
 .events{
-	background-color: black;
-	color: white;
+	background-color: white;
+	color: black;
 	padding: 0.5rem;
 }
 
@@ -76,8 +84,16 @@ html{
 }
 
 .events ul li{
-	border: 1px solid white;
+
+	border: 1px solid black;
 	padding: 0.5rem;
-	margin-bottom: 1.5rem;
+	margin-bottom: 1rem;
+
 	text-align: center;
+	transition: all 2s , ease 1s;
+}
+
+.events ul li:hover{
+	background-color: #4f34eb;
+
 }
