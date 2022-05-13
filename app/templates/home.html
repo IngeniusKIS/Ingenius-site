@@ -5,8 +5,11 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='style4.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='style3.css')}}">
 	<link rel="shortcut icon" type="image/x-icon" href="{{url_for('static',filename='favicon.ico')}}">
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='bootstrap.min.css')}}">
+		<script defer  src="{{url_for('static',filename='script.js')}}"></script>
+
 	<title>Ingenius</title>
 </head>
 
@@ -39,17 +42,76 @@
 	<div class="events" id="events">
 		<h1>Events</h1>
 		<ul>
-			<li>Event 1</li>
-			<li>Event 2</li>
-			<li>Event 3</li>
-			<li>Event 4</li>
-			<li>Event 5</li>
-			<li>Event 6</li>
-			<li>Event 7</li>
-			<li>Event 8</li>
-			<li>Event 9</li>
+			<li><button data-modal-target="#modal" class ="event-btn" >GAME JAM</button></li> 
+			<li><button data-modal-target="#modal2" class ="event-btn" >SIKRYPT</button></li>
+			<li><button data-modal-target="#modal3" class ="event-btn" >ESPORTS</button></li>
+			<li><button data-modal-target="#modal4" class ="event-btn" >EVENT 4</button></li>
+			<li><button class ="event-btn" >Event5</button></li>
+			<li><button class ="event-btn" >Event6</button></li>
+			<li><button class ="event-btn" >Event7</button></li>
+			<li><button class ="event-btn" >Event8</button></li>
+			<li><button class ="event-btn" >Event9</button></li>
+			<li><button class ="event-btn" >Event10</button></li>
+			<li><button class ="event-btn" >Event11</button></li>
+			<li><button class ="event-btn" >Event12</button></li>
 		</ul>
 	</div>
+	<div class="popups">
+
+	<div class="modal" id="modal">
+    <div class="modal-header">
+      <div class="title">GAME JAM</div>
+      <button data-close-button class="close-button">&times;</button>
+    </div>
+    <div class="modal-body">
+    	<pre>
+         Online Event
+		1.Participants will create a game on a given theme which will be announced 5 days before the event
+		2.Current Theme: Less is More subject to change
+		3.Participants will have the 1 week to develop their game, and will submit them by the end of the 2nd day of the event
+		4.They will then be judged and ranked, and the winner will be announced after the event
+		5.Submissions will through itch.io
+		6.Rules:
+			Games can be of any genre (FPS, platformer, etc.)
+			Both 2D and 3D games are allowed
+			Any game engine is allowed
+			You are not allowed to update the game after submitting the game (Updates after judging is complete are allowed)
+			Inspiration is allowed, but plagiarism is prohibited
+			Games that don’t fit the theme will be disqualified
+			Games Submitted after the end time (12:00 pm 30 July subject to change) will not be considered for judging
+			Judging will be based on the following criteria
+			Gameplay elements
+			Artistic vision
+			Music/Sound design
+			Story
+			Length 
+		</pre>
+    </div>
+  </div>
+
+  	<div class="modal" id="modal2">
+    <div class="modal-header">
+      <div class="title">Sikrypt</div>
+      <button data-close-button class="close-button">&times;</button>
+    </div>
+    <div class="modal-body">
+      
+    </div>
+  </div>
+
+  	<div class="modal" id="modal3">
+    <div class="modal-header">
+      <div class="title"></div>
+      <button data-close-button class="close-button">&times;</button>
+    </div>
+    <div class="modal-body">
+
+  </div>
+
+
+  <div id="overlay"></div>
+	</div>
+
 
 
 </body>
