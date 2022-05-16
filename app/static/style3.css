@@ -148,7 +148,7 @@ body{
 	border-width: 0;
 	width: 20vw;
 	height:  21vh;
-	padding: 8rem;
+	padding: 5rem;
 	margin-right: 2rem;
 	transition: all 2s , ease 1s;
 }
@@ -170,6 +170,7 @@ body{
   width: 800px;
   max-width: 80%;
   color: white;
+  border: solid 0.77px #F0A500;
 }
 
 .modal.active {
@@ -189,6 +190,7 @@ body{
   font-size: 1.25rem;
   font-weight: bold;
   color: white;
+
 }
 
 .modal-header .close-button {
@@ -202,7 +204,8 @@ body{
 }
 
 .modal-body {
-  padding: 30px 35px;
+  padding: 20px 15px;
+  text-align: center;
 }
 
 #overlay {
