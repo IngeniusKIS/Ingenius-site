@@ -2,10 +2,10 @@
 
 html{
 	scroll-behavior: smooth;
-	background-color: black;
+	background-color: #DFF6FF;
 }
 body{
-	background-color: black;
+	background-color: #DFF6FF;
 }
 *{
 	box-sizing: border-box;
@@ -17,7 +17,7 @@ body{
 /* page-header styling */
 
 .header{
-	background-color:black;
+	background-color:#DFF6FF;
 }
 
 .nav-links{
@@ -47,7 +47,7 @@ body{
 .nav-item a{
 	text-decoration: none;
 	transition: all 0.3s ease 0s;
-	color: #F0A500;
+	color: #051367;
 	font-size: 20px;
 
 
@@ -56,7 +56,7 @@ body{
 .nav-item button{
 	border: 0px;
 	border-radius: 3px;
-	background-color: #F0A500;
+	background-color: #051367;
 	padding: 8px;
 	transition: all 2s,ease 0.5s;
 	color: black;
@@ -64,14 +64,14 @@ body{
 }
 
 .nav-item button:hover{
-	background-color: #FF0000;
+	background-color: #14279B;
 	
 
 }
 
 .nav-item button a{
 	
-	color:black;
+	color:#DFF6FF;
 
 }
 
@@ -83,7 +83,7 @@ body{
 	padding: 10rem;
 	font-size: xx-large;
 	
-	color: white;
+	color: #051367;
 	width: 100%
 }
 
@@ -93,7 +93,7 @@ body{
 	width: 70%;
 	margin: auto;
 	margin-bottom: 12.5rem;
-	color: white;
+	color: #051367;
 	word-wrap: break-word;
 
 	
@@ -108,7 +108,7 @@ body{
 /* events div styling */
 
 .events{
-	background-color:black;
+	background-color:#DFF6FF;
 	color: black;
 	padding: 0.5rem;
 }
@@ -116,7 +116,7 @@ body{
 .events h1{
 	text-align: center;
 	font-size: 40px;
-	color: white;
+	color: #051367;
 
 }
 
@@ -132,7 +132,7 @@ body{
 	padding: 0.5rem;
 	margin-bottom: 1rem;
 
-	background-color: black;
+	background-color: #DFF6FF;
 	color:#f4f6fc;
 
 	text-align: center;
@@ -141,7 +141,7 @@ body{
 
 
 .event-btn{
-	background-color: #272121;
+	background-color:#051367;
 	border-radius: 3px;
 	color:#f4f6fc;
 	border-color: none;
@@ -154,7 +154,7 @@ body{
 }
 
 .event-btn:hover{
-	background-color: #F0A500;
+	background-color: #2D31FA;
 	color:black;
 }
 
@@ -166,7 +166,7 @@ body{
   transition: 200ms ease-in-out;
   border-radius: 3px;
   z-index: 10;
-  background-color: black;
+  background-color: #DFF6FF;
   width: 800px;
   max-width: 80%;
   color: white;
