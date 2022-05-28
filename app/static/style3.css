@@ -183,13 +183,13 @@ body{
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid black;
-  color: white;
+  color:#051367;
 }
 
 .modal-header .title {
   font-size: 1.25rem;
   font-weight: bold;
-  color: white;
+  color:#051367;
 
 }
 
@@ -200,7 +200,7 @@ body{
   background: none;
   font-size: 2.25rem;
   font-weight: bold;
-  color: white;
+  color: #051367;
 }
 
 .modal-body {
