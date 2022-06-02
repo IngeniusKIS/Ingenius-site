@@ -2,10 +2,10 @@
 
 html{
 	scroll-behavior: smooth;
-	background-color: #DFF6FF;
+	background-color: #1B1A17;
 }
 body{
-	background-color: #DFF6FF;
+	background-color: #1B1A17;
 }
 *{
 	box-sizing: border-box;
@@ -17,7 +17,7 @@ body{
 /* page-header styling */
 
 .header{
-	background-color:#DFF6FF;
+	background-color:#1B1A17;
 }
 
 .nav-links{
@@ -47,7 +47,7 @@ body{
 .nav-item a{
 	text-decoration: none;
 	transition: all 0.3s ease 0s;
-	color: #051367;
+	color: #F0A500;
 	font-size: 20px;
 
 
@@ -56,7 +56,7 @@ body{
 .nav-item button{
 	border: 0px;
 	border-radius: 3px;
-	background-color: #051367;
+	background-color: #F0A500;
 	padding: 8px;
 	transition: all 2s,ease 0.5s;
 	color: black;
@@ -64,14 +64,14 @@ body{
 }
 
 .nav-item button:hover{
-	background-color: #14279B;
+	background-color: #F7D716;
 	
 
 }
 
 .nav-item button a{
 	
-	color:#DFF6FF;
+	color:#1B1A17;
 
 }
 
@@ -83,7 +83,7 @@ body{
 	padding: 10rem;
 	font-size: xx-large;
 	
-	color: #051367;
+	color: #F0A500;
 	width: 100%
 }
 
@@ -93,7 +93,7 @@ body{
 	width: 70%;
 	margin: auto;
 	margin-bottom: 12.5rem;
-	color: #051367;
+	color: #F0A500;
 	word-wrap: break-word;
 
 	
@@ -108,7 +108,7 @@ body{
 /* events div styling */
 
 .events{
-	background-color:#DFF6FF;
+	background-color:#1B1A17;
 	color: black;
 	padding: 0.5rem;
 }
@@ -116,7 +116,7 @@ body{
 .events h1{
 	text-align: center;
 	font-size: 40px;
-	color: #051367;
+	color: #F0A500;
 
 }
 
@@ -132,7 +132,7 @@ body{
 	padding: 0.5rem;
 	margin-bottom: 1rem;
 
-	background-color: #DFF6FF;
+	background-color: #1B1A17;
 	color:#f4f6fc;
 
 	text-align: center;
@@ -141,7 +141,7 @@ body{
 
 
 .event-btn{
-	background-color:#051367;
+	background-color:#413F42;
 	border-radius: 3px;
 	color:#f4f6fc;
 	border-color: none;
@@ -154,7 +154,7 @@ body{
 }
 
 .event-btn:hover{
-	background-color: #2D31FA;
+	background-color:#F0A500;
 	color:black;
 }
 
@@ -166,10 +166,10 @@ body{
   transition: 200ms ease-in-out;
   border-radius: 3px;
   z-index: 10;
-  background-color: #DFF6FF;
+  background-color: #1B1A17;
   width: 800px;
   max-width: 80%;
-  color: white;
+  color: #F0A500;
   border: solid 0.77px #F0A500;
 }
 
@@ -183,13 +183,13 @@ body{
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid black;
-  color:#051367;
+  color:#F0A500;
 }
 
 .modal-header .title {
   font-size: 1.25rem;
   font-weight: bold;
-  color:#051367;
+  color:#F0A500;
 
 }
 
@@ -200,7 +200,7 @@ body{
   background: none;
   font-size: 2.25rem;
   font-weight: bold;
-  color: #051367;
+  color: #F0A500;
 }
 
 .modal-body {
