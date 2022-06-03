@@ -17,4 +17,4 @@ def about():
 
 @app.route('/events/')
 def events():
-	return redirect('https://fast-falls-22011.herokuapp.com/#events')
+	return render_template('events.html')

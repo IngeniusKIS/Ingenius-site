@@ -10,7 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='bootstrap.min.css')}}">
 		<script defer  src="{{url_for('static',filename='script.js')}}"></script>
 
-	<title>Ingenius</title>
+	<title>Ingenious</title>
 </head>
 
 <body>
@@ -22,7 +22,7 @@
 				<ul>
 					<li class="nav-item"><a href="{{url_for('home')}}"><h2>INGENIOUS</h2></a></li>
 					<li class="nav-item"><a href="#about">About</a></li>
-					<li class="nav-item"><a href="#events">Events</a></li>
+					<li class="nav-item"><a href="{{url_for('events')}}">Events</a></li>
 					<li class="nav-item"><button><a href="{{url_for('register')}}">Register</a></button></li>
 				</ul>
 			</div>		
@@ -35,155 +35,16 @@
 	</div>
 	<div class="about" id="about">
 		<h1>About Us</h1>
-		<h3>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</h3>
+		<h3>INGENIOUS is a mega fest with an array of events/activities to challenge every aspect of a growing child. The fest includes Science, Technology, English, and Entrepreneurship, Dance, Music and Maths. It’s a three-day event that brings along a wide variety of sub events to give wings to anyone’s talent</h3>
+		<h3>The holding of the fest is an endeavour to initiate the collaborative working of students. The platform launched, is a dream actualised by the leaders of the Kothari International School. Students have worked tirelessly from the very inception of the concept. They have created, conceived and will now  execute the entire fest solely. </h3>
 	</div>
 
+<div class="socials">
+	<a href="https://www.facebook.com"><img src="{{url_for('static',filename='facebook.png')}}"></a>
+	<a href="https://www.instagram.com"><img src="{{url_for('static',filename='instagram.png')}}"></a>
+	<a href="https://discord.com"><img src="{{url_for('static',filename='discord.png')}}"></a>
 
-	<div class="events" id="events">
-		<h1>Events</h1>
-		<ul>
-			<li><button data-modal-target="#modal" class ="event-btn" >GAME JAM</button></li> 
-			<li><button data-modal-target="#modal2" class ="event-btn" >SIKRYPT</button></li>
-			<li><button data-modal-target="#modal3" class ="event-btn" >E-SPORTS</button></li>
-			<li><button data-modal-target="#modal4" class ="event-btn" >CHESS</button></li>
-			<li><button data-modal-target="#modal5" class ="event-btn" >Debugging</button></li>
-			<li><button data-modal-target="#modal6" class ="event-btn" >Map the Brand</button></li>
-			<li><button data-modal-target="#modal7" class ="event-btn" >Picture Perfect</button></li>
-			<li><button data-modal-target="#modal8" class ="event-btn" >Slam Poetry</button></li>
-			<li><button data-modal-target="#modal9" class ="event-btn" >Parliamentary Debate</button></li>
-			<li><button data-modal-target="#modal10" class ="event-btn" >The Great Math Race</button></li>
-			<li><button data-modal-target="#modal11" class ="event-btn" >Get The Math</button></li>
-			<li><button data-modal-target="#modal12" class ="event-btn" >S.T.E.A.M Journalism</button></li>
-		</ul>
-	</div>
-	<div class="popups">
-
-	<div class="modal" id="modal">
-    <div class="modal-header">
-      <div class="title">GAME JAM</div>
-      <button data-close-button class="close-button">&times;</button>
-    </div>
-    <div class="modal-body">
-    	<pre>
-         conceptualize, develop and design a video game based on a secret topic revealed before the event
-		</pre>
-    </div>
-  </div>
-
-  	<div class="modal" id="modal2">
-    <div class="modal-header">
-      <div class="title">Sikrypt</div>
-      <button data-close-button class="close-button">&times;</button>
-    </div>
-    <div class="modal-body">
-      Participants will be taken on a journey through obscure websites, unlisted youtube videos, and their own mind as they try to solve a series of puzzles split up into various unique levels that will test their brain power, resourcefulness and their inner detective.
-    </div>
-  </div>
-
-  	<div class="modal" id="modal3">
-    <div class="modal-header">
-      <div class="title">E-Sports</div>
-      <button data-close-button class="close-button">&times;</button>
-    </div>
-    <div class="modal-body">
-    	knockout tournament for BGMI and Valorant
-  </div>
-	</div>
-
-	<div class="modal" id="modal4">
-    <div class="modal-header">
-      <div class="title">Chess</div>
-      <button data-close-button class="close-button">&times;</button>
-    </div>
-    <div class="modal-body">
-    	Defend your turf and infiltrate your enemies in 10 minute rounds of a classic game of chess
-  </div>
-	</div>
-
-	<div class="modal" id="modal5">
-    <div class="modal-header">
-      <div class="title">Debugging</div>
-      <button data-close-button class="close-button">&times;</button>
-    </div>
-    <div class="modal-body">
-
-  </div>
-	</div>
-
-
-	<div class="modal" id="modal6">
-    <div class="modal-header">
-      <div class="title">Map the Brand</div>
-      <button data-close-button class="close-button">&times;</button>
-    </div>
-    <div class="modal-body">
-    	Design an Advertising Campaign around a Product of your own choice
-  </div>
-	</div>
-
-	<div class="modal" id="modal7">
-    <div class="modal-header">
-      <div class="title">Picture Perfect</div>
-      <button data-close-button class="close-button">&times;</button>
-    </div>
-    <div class="modal-body">
-
-  </div>
-	</div>
-
-	<div class="modal" id="modal8">
-    <div class="modal-header">
-      <div class="title">Slam Poetry</div>
-      <button data-close-button class="close-button">&times;</button>
-    </div>
-    <div class="modal-body">
-    	Participants get to write a 3 minute poem, which they shall perform on stage
-  </div>
-	</div>
-
-	<div class="modal" id="modal9">
-    <div class="modal-header">
-      <div class="title">Parliamentary Debate</div>
-      <button data-close-button class="close-button">&times;</button>
-    </div>
-    <div class="modal-body">
-    	A debate session over a resolution passed at the beginning of the event
-  </div>
-	</div>
-
-	<div class="modal" id="modal10">
-    <div class="modal-header">
-      <div class="title">The Great Math Race</div>
-      <button data-close-button class="close-button">&times;</button>
-    </div>
-    <div class="modal-body">
-    	A Maths Based Scavenger hunt with Levels of increasing complexity
-  </div>
-	</div>
-
-		<div class="modal" id="modal11">
-    <div class="modal-header">
-      <div class="title">Get The Math</div>
-      <button data-close-button class="close-button">&times;</button>
-    </div>
-    <div class="modal-body">
-    	
-  </div>
-	</div>
-
-		<div class="modal" id="modal12">
-    <div class="modal-header">
-      <div class="title">Steam Journalism</div>
-      <button data-close-button class="close-button">&times;</button>
-    </div>
-    <div class="modal-body">
-
-  </div>
-	</div>
-
-
-
-
-  <div id="overlay"></div>
+</div>
+	
 </body>
 </html>
